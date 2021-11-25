@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.gaston {
+  font-family: "Praise", cursive;
+  text-align: center;
+  background-color: black;
+  color: antiquewhite;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  font-size: 40px;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.tarjeta {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+.imagenx4 {
+  text-align: center;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+}
+.imgscale {
+  transition: transform 0 5s ease;
+}
+.imgscale:hover {
+  transform: scale(1.2, 1.2);
+}
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  text-shadow: 5px, 5px, 10px grey;
+}
+.row {
+  justify-content: space-around;
+}
+.menu2 {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: black;
+  width: 100%;
+}
+.menu2 li a {
+  color: beige;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3rem;
+  font-family: "Anton", sans-serif;
+}
+.menu2 promo {
+  color: brown;
+}
