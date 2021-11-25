@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .gaston {
   font-family: "Praise", cursive;
   text-align: center;
@@ -66,6 +67,72 @@ h3 {
   line-height: 3rem;
   font-family: "Anton", sans-serif;
 }
-.menu2 promo {
-  color: brown;
+
+footer {
+  background-color: #202020;
+  color: beige;
+  padding: 20px;
+}
+
+.container-todo {
+  width: 100%;
+  max-width: 1200px;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.horarios {
+  max-width: 400px;
+}
+.horarios h2 {
+  font-size: 22px;
+}
+.horarios p {
+  font-size: 14px;
+  color: #c7c7c7;
+}
+.redsocial {
+  max-width: 400px;
+}
+.redsocial h2 {
+  font-size: 22px;
+}
+.fila {
+  margin-top: 20px;
+  display: flex;
+}
+.fila img {
+  width: 35px;
+  height: 35px;
+}
+.fila label {
+  margin-top: 5px;
+  margin-left: 15px;
+  color: #c7c7c7;
+}
+.Info {
+  max-width: 400px;
+}
+.Info h2 {
+  font-size: 22px;
+}
+
+.fila2 {
+  margin-top: 20px;
+}
+.fila2 img {
+  width: 34px;
+  height: 34px;
+}
+.fila2 label {
+  margin-left: 20px;
+  margin-top: 10px;
+  max-width: 300px;
+}
+.copy {
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
