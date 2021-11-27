@@ -1,0 +1,60 @@
+.body {
+  padding: 5%;
+}
+
+.gaston {
+  font-family: "Praise", cursive;
+  text-align: center;
+  background-color: black;
+  color: antiquewhite;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  font-size: 40px;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  text-shadow: rgba(50, 53, 51, 0.8);
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.label__letra {
+  font-family: cursive;
+}
+
+.label__letra--comentario {
+  background-color: burlywood;
+}
+/*# sourceMappingURL=stilos.css.map */

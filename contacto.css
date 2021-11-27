@@ -12,6 +12,12 @@
   animation-iteration-count: infinite;
   font-size: 40px;
 }
+.tarjeta {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
 
 .h1 {
   text-align: center;
