@@ -47,6 +47,11 @@ body {
 .conversvans .row {
   justify-content: space-evenly;
 }
+.img1 {
+  box-shadow: 1px 10px 25px rgba(0, 0, 0, 1);
+  width: 400px;
+  height: auto;
+}
 
 h3 {
   text-align: center;
