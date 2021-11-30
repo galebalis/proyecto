@@ -119,11 +119,6 @@ footer {
   width: 35px;
   height: 35px;
 }
-.fila label {
-  margin-top: 5px;
-  margin-left: 15px;
-  color: #c7c7c7;
-}
 
 .Info h2 {
   font-size: 22px;
@@ -136,14 +131,15 @@ footer {
   width: 34px;
   height: 34px;
 }
-.fila2 label {
-  margin-left: 20px;
-  margin-top: 10px;
-  max-width: 300px;
-}
+
 .copy {
   background-color: #101010;
   display: flex;
   justify-content: center;
   color: white;
+}
+.social {
+  margin-top: 5px;
+  margin-left: 15px;
+  color: #c7c7c7;
 }
