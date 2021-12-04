@@ -141,6 +141,7 @@ footer {
   display: flex;
   justify-content: center;
   color: white;
+  text-transform: capitalize;
 }
 .social {
   margin-top: 5px;
