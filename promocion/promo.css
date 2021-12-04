@@ -28,20 +28,14 @@
   background-color: red;
   color: white;
 }
-img {
-  width: 40%;
+h1 {
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: auto;
 }
 .container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
-  justify-content: center;
-}
-button {
-  padding: 15px 30px;
-  border-radius: 20px;
-  border: none;
-  background: rgb(5, 129, 245);
+  margin: 10%;
 }
